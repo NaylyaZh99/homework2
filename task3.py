@@ -19,5 +19,5 @@ ph = {'0': ' ',
       '8': 'tuv', 
       '9': 'wxyz'}
 num = input()
-print(combination(phone, num))
+print(combination(ph, num))
 
