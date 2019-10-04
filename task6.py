@@ -58,9 +58,9 @@ class  graph:
 
 
 gr = graph()
-n = int(input())
 s = input().split()
 for i in range(0, len(s), 3):
     gr.add(s[i], s[i + 1], s[i + 2])
+n = int(input())
 s = int(input())
 gr.deWay(s)
